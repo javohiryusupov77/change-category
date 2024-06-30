@@ -1,23 +1,28 @@
 .service-container {
-  max-width: 1250px;
+    max-width: 1250px;
+    padding: 0 1rem;
+    margin: auto;
 }
 
 .imageOfcontent {
-  width: 370px;
-  height: 370px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-  transition: 0.3s;
-  margin-bottom: 2rem;
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 2rem;
 }
+
 .imageOfcontent:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .content {
-    display: inline;
+    display: inline-block;
     padding: 1rem;
 }
+
 .loader {
     margin: auto;
     width: 32px;
@@ -48,10 +53,54 @@
 
 @keyframes fill {
     0% {
-        box-shadow: 0 0 0 2px inset
+        box-shadow: 0 0 0 2px inset;
     }
 
     100% {
-        box-shadow: 0 0 0 10px inset
+        box-shadow: 0 0 0 10px inset;
+    }
+}
+
+@media (max-width: 768px) {
+    .imageOfcontent {
+        width: 90%;
+        max-width: 300px;
+        margin-bottom: 1.5rem;
+    }
+
+    .loader {
+        width: 24px;
+        height: 24px;
+    }
+
+    .loader::before,
+    .loader::after {
+        left: 36px;
+    }
+
+    .loader::after {
+        right: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .imageOfcontent {
+        width: 80%;
+        max-width: 250px;
+        margin-bottom: 1rem;
+    }
+
+    .loader {
+        width: 20px;
+        height: 20px;
+    }
+
+    .loader::before,
+    .loader::after {
+        left: 30px;
+    }
+
+    .loader::after {
+        right: 30px;
     }
 }

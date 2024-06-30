@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "sofa",
+      "image":"https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?cs=srgb&dl=pexels-pixabay-276583.jpg&fm=jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chair",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOwDGZmamex9pfjvf8fgUl-54dbrg42Sq2RtzgMlfYDx7GqlJjcLdSoMPB-kpjtsWJsM&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "name": "Living room",
+      "image":"https://www.shutterstock.com/image-photo/interior-living-room-green-houseplants-260nw-2290526749.jpg"
+    },
+    {
+      "id": 4,
+      "name": "toilet",
+      "image":"https://cdn.apartmenttherapy.info/image/upload/v1677593251/at/style/2023-02/Stylish%20toilet/SalthouseCollective_Carlsbad_9.1_CLea-28.jpg"
+    },
+    {
+      "id": 5,
+      "name": "bedroom",
+      "image":"https://media.istockphoto.com/id/95857878/photo/small-bedroom-interior.jpg?s=612x612&w=0&k=20&c=cSZugbIZnQvW1xPDzoISHNUABT7pE1FR6qx5ZUJNtGM="
+    },
+    {
+      "id": 6,
+      "name": "kitchen",
+      "image":"https://t4.ftcdn.net/jpg/05/84/53/41/360_F_584534126_VL19xWaEBJKSZZlEuJgAT0MsCjo8f6uq.jpg"
+    }
+  ]
+}

@@ -10,6 +10,9 @@ const Service = () => {
     const controller = new AbortController();
     const { signal } = controller;
 
+    const saveUsers = JSON.stringify(users);
+    localStorage.setItem("users", saveUsers);
+
     async function fetchUsers() {
       try {
         const response = await fetch(`${import.meta.env.VITE_BASE_URL}/users`, {
